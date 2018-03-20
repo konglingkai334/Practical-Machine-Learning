@@ -1,4 +1,4 @@
-     An analysis report(writeup)
+## An analysis report(writeup)
 From the data web:
 Detailed Accuracy
 Correctly Classified Instances 	164662 	99.4144 %
@@ -16,7 +16,7 @@ TP Rate 	FP Rate 	Precision 	Recall 	F-Measure 	ROC Area 	Class
 0.998 	0.001 	0.998 	0.998 	0.998 	1 	Walking
 0.994 	0.001 	0.994 	0.994 	0.994 	1 	Weighted Avg.
 
-We use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants.(Velloso, E.; Bulling, A.; Gellersen, H.; Ugulino, W.; Fuks, H. Qualitative Activity Recognition of Weight Lifting Exercises. Proceedings of 4th International Conference in Cooperation with SIGCHI (Augmented Human '13) . Stuttgart, Germany: ACM SIGCHI, 2013.)
+## We use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants.(Velloso, E.; Bulling, A.; Gellersen, H.; Ugulino, W.; Fuks, H. Qualitative Activity Recognition of Weight Lifting Exercises. Proceedings of 4th International Conference in Cooperation with SIGCHI (Augmented Human '13) . Stuttgart, Germany: ACM SIGCHI, 2013.)
 
 They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. Given data from accelerometers, the goal is to predict the class of action which is one of the following.
 
@@ -28,7 +28,7 @@ E. Throwing the hips to the front
 
 
 
-Some Data Infoamation:
+## Some Data Infoamation:
 
 The training data for this project are available here:
 https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv
@@ -42,7 +42,7 @@ The data for this project come from this source: http://web.archive.org/web/2016
 
 The code is as follow:
 
-##To begin with.
+## To begin with.
 library(RCurl)
 train_url <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 test_url <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
